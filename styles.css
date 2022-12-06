@@ -1,0 +1,269 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@200&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar {
+  background-color: rgb(236, 234, 234);
+  width: 20%;
+  font-family: "Open Sans", sans-serif;
+  height: 100vh;
+}
+
+.sidebar nav {
+  padding: 45px;
+}
+
+.sidebar nav li {
+  list-style: none;
+  font-size: 25px;
+  padding: 33px 0;
+}
+
+.sidebar nav li a {
+  text-decoration: none;
+  color: black;
+}
+
+.main {
+  background-color: white;
+  width: 90vw;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.infoContainer {
+  margin: 147px auto;
+  background-color: white;
+  height: 50vh;
+  width: 80vw;
+  display: flex;
+  justify-content: space-around;
+}
+
+.devInfo {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Poppins", sans-serif;
+  margin: 50px;
+}
+
+.hello {
+  font-size: 45px;
+}
+
+.name {
+  font-size: 35px;
+  /* font-weight: bold; */
+  font-family: "Open Sans", sans-serif;
+}
+
+.about {
+  font-size: 25px;
+}
+
+.aboutmore {
+  font-size: 15px;
+  /* font-weight: bold; */
+  margin-top: 20px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.buttons {
+  margin-top: 35px;
+}
+
+.btn {
+  padding: 9px 14px;
+  border-radius: 25px;
+  color: white;
+  background-color: dodgerblue;
+  font-weight: bold;
+  font-size: 16px;
+  margin: 0px 3px;
+  cursor: pointer;
+}
+
+.btn-sm {
+  font-size: 10px;
+  padding: 7px 13px;
+  margin: 10px 0;
+}
+
+.btn:hover {
+  background-color: white;
+  color: dodgerblue;
+}
+
+.devPic img {
+  height: 50vh;
+  margin-right: 50px;
+}
+
+.contactform {
+  padding: 0 50px;
+  padding-top: 50px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.contactform h1 {
+  font-family: "Poppins", sans-serif;
+  /* text-align: center; */
+  /* padding: 10px; */
+  margin: 20px;
+}
+
+.contactform form div {
+  padding: 10px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.contactform form div input{
+  width: 20vw;
+  border-radius: 6px;
+  margin: 6px 0 0 0;
+  padding: 4px;
+}
+
+#emailHelp {
+  padding: 11px;
+  color: rgb(27, 27, 164);
+  margin: 5px 0;
+  padding: 3px 0 0 0;
+}
+
+#form-check {
+  flex-direction: row;
+}
+
+#form-check input {
+  width: 24px;
+  margin: 3px 0;
+}
+
+.blogItem {
+  margin: 23px;
+  font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+  font-family: "Open Sans", sans-serif;
+  margin: 23px;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+
+}
+
+.introduction h2 {
+  font-family: "Open Sans", sans-serif;
+  margin: 12px;
+}
+
+.introduction p {
+  font-family: "Poppins", sans-serif;
+  margin: 12px;
+}
+
+.skillContainer {
+  padding: 12px;
+}
+
+.skill {
+  width: 265px;
+  height: 8px;
+  background-color: red;
+  border: 2px solid black;
+}
+
+.skillItem {
+  display: flex;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+
+.hundred {
+  width: 265px;
+  background-color: aqua;
+}
+.eighty{
+  width: 125px;
+  background-color: blue;
+}
+.seventy {
+  width: 78px;
+  background-color: chartreuse;
+}
+
+/* @media (max-width : 1600px) {
+    *{
+    background-color: rgb(208, 128, 128);
+    }
+    .sidebar {
+        transform: translate(-443px, 0px);
+        position: absolute;
+    }
+} */
+
+.first, second, third, fourth {
+    font-family: "Open Sans", sans-serif;
+    
+}
+
+.firstFont, secondFont, thirdFont, fourthFont {
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+}
+
+.sidebar1 {
+    background-color: rgb(236, 234, 234);
+    width: 20%;
+    font-family: "Open Sans", sans-serif;
+    height: 125vh;
+}
+.sidebar1 nav {
+    padding: 45px;
+}
+  
+.sidebar1 nav li {
+    list-style: none;
+    font-size: 25px;
+    padding: 33px 0;
+}
+  
+.sidebar1 nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+.sidebar2 {
+    background-color: rgb(236, 234, 234);
+    width: 20%;
+    font-family: "Open Sans", sans-serif;
+    height: 140vh;
+  }
+  
+  .sidebar2 nav {
+    padding: 45px;
+  }
+  
+  .sidebar2 nav li {
+    list-style: none;
+    font-size: 25px;
+    padding: 33px 0;
+  }
+  
+  .sidebar2 nav li a {
+    text-decoration: none;
+    color: black;
+  }
